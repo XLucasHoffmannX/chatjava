@@ -10,9 +10,9 @@
 Bressanim, Matheus Konrad Xavier e Lucas Henrique Hoffmann.
 
 <h2>Responsabilidade do Server e do Cliente:</h2>
-<h3><b>Server.java:</b><h3>
+<h3><b>Server.java:</b></h3>
 <p>O servidor deverá ser iniciado por primeiro, ela é a unidade centralizadora de todas as conexões recebidas via socket e terá como responsabilidade o envio de uma mensagem onde é rebebida de algum cliente, o server envia para todos os cliente conectados</p>
-<h3><b>Cliente.java:</b><h3>
+<h3><b>Cliente.java:</b></h3>
 <p>Cada usuário criará uma instância do cliente e fará uma conexão com o servidor socket.</p>
 
 <h2>Utilização do BufferedWriter</h2>
