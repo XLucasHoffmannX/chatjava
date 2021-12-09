@@ -38,7 +38,7 @@ public class Cliente  {
 
     //Método para conectar no server
     public void conectar() throws IOException {
-        socket = new Socket("127.0.0.1", 12345);
+        socket = new Socket("127.0.0.1", 4030);
         ou = socket.getOutputStream();
         ouw = new OutputStreamWriter(ou);
         bfw = new BufferedWriter(ouw);
